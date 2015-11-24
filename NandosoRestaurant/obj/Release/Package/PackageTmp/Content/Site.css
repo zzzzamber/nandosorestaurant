@@ -1,0 +1,25 @@
+﻿body {
+    font: "Trebuchet MS", Verdana, sans-serif;
+    background-color: #F4FF97;
+    color: #060002;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+h1
+{
+border-bottom: 3px solid #F7121D;
+font: Georgia, serif;
+color: #F7121D;
+}
