@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Facebook Login</h2>
+<body>
+    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    </fb:login-button>
+
+    <div id="status">
+    </div>
+</body>

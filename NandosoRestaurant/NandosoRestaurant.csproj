@@ -292,6 +292,8 @@
     <Content Include="Views\Special\Index.cshtml" />
     <Content Include="Views\Special\Order.cshtml" />
     <Content Include="Views\Feedback\Index.cshtml" />
+    <Content Include="Views\Feedback\Reply.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
