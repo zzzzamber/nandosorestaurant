@@ -1,13 +1,19 @@
-﻿body {
+﻿/*body {
     font: "Trebuchet MS", Verdana, sans-serif;
     background-color: #F4FF97;
     color: #060002;
-}
+}*/
+
+body {
+    background-image: url(http://www.nandos.com/sites/default/files//homepage-carousel-worldwide.png);
+    background-repeat: repeat;
+    background-position: center; 
+    }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -17,9 +23,29 @@ textarea {
     max-width: 280px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1
 {
-border-bottom: 3px solid #F7121D;
-font: Georgia, serif;
-color: #F7121D;
+font: Comic Sans MS, Impact, Charcoal, sans-serif;
+/*background-image: url(http://www.nandos.com/sites/default/files//homepage-carousel-worldwide.png);*/
+color:black; 
+font-size:500%
+}
+
+h2 {
+font-size: 220%;
+color:black 
+}
+
+p {
+ font-size: 150%;
+ color:black
+}
+
+.page-header {
+    padding: 65px;
 }

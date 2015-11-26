@@ -3,6 +3,49 @@
     ViewBag.Title = "Index";
 }
 
+@*<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    </fb:login-button>
+
+    <div id="status">
+    </div>*@
+
 <h2>Index</h2>
-<div>special page</div>
+<h2>Today's special</h2>
+<ul id="results"></ul>
+@*
+
+    need to display specials in a list
+*@
+
+@section scripts{
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                dataType: "json",
+                url: 'api/MySpecials',
+                success: function(data){
+                console.log(data);
+            }
+
+            });
+
+
+            //.done(function (msg) {
+            //$.each(msg, function () {
+            //    console.log(msg);
+            //    $("#results").append("<li>"+msg.Dishname+"</li>");
+            //});
+
+
+            //});
+
+        
+        });
+
+    </script>
+}
+
+
 

@@ -155,4 +155,5 @@ D:\ambervisualstudio\nandosorestaurant\NandosoRestaurant\bin\Microsoft.Owin.Secu
 D:\ambervisualstudio\nandosorestaurant\NandosoRestaurant\bin\System.Web.Http.Owin.xml
 D:\ambervisualstudio\nandosorestaurant\NandosoRestaurant\obj\Debug\NandosoRestaurant.dll
 D:\ambervisualstudio\nandosorestaurant\NandosoRestaurant\obj\Debug\NandosoRestaurant.pdb
-D:\ambervisualstudio\nandosorestaurant\NandosoRestaurant\obj\Debug\NandosoRestaurant.csprojResolveAssemblyReference.cache
+D:\ambervisualstudio\nandosorestaurant\NandosoRestaurant\bin\MySql.Data.dll
+D:\ambervisualstudio\nandosorestaurant\NandosoRestaurant\bin\MySql.Data.Entity.EF6.dll

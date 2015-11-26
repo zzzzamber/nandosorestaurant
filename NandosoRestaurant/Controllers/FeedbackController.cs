@@ -20,14 +20,15 @@ namespace NandosoRestaurant.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(string firstname, string lastname, string feedback)
+        public ActionResult Index(string firstname, string lastname, string email, string feedback)
         {
             // return RedirectToAction("Reply", new { FirstName = firstname, LastName = lastname, Feedback = feedback });
             ViewBag.FirstName = firstname;
             ViewBag.LastName = lastname;
+            ViewBag.Email = email;
             ViewBag.Feedback = feedback;
             return View("Reply");
         }
-   
+
     }
 }
