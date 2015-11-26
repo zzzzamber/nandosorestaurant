@@ -1,6 +1,4 @@
-﻿
-
-namespace NandosoRestaurant.Models
+﻿namespace NandosoRestaurant.Models
 {
     public class MySpecial
     {

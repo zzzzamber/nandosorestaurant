@@ -12,7 +12,7 @@ namespace NandosoRestaurant
     [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class NandosoDBContext : DbContext
     {
-        public System.Data.Entity.DbSet <NandosoRestaurant.Models.MySpecial> MySpecial { get; set; }
+        //public System.Data.Entity.DbSet <NandosoRestaurant.Models.MySpecial> MySpecial { get; set; }
         public class MyConfiguration : DbMigrationsConfiguration<NandosoRestaurant.NandosoDBContext>
         {
             public MyConfiguration()
@@ -67,7 +67,7 @@ namespace NandosoRestaurant
         //To add specials to db
         public DbSet<MySpecial> specials { get; set; }
 
-
+        public DbSet<MyFeedback> feedbacks { get; set; }
 
     }
 

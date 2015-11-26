@@ -9,43 +9,21 @@
     <div id="status">
     </div>*@
 
-<h2>Index</h2>
 <h2>Today's special</h2>
 <ul id="results"></ul>
-@*
-
-    need to display specials in a list
-*@
 
 @section scripts{
 
     <script type="text/javascript">
-        $(document).ready(function () {
-            $.ajax({
-                type: "GET",
-                dataType: "json",
-                url: 'api/MySpecials',
-                success: function(data){
-                console.log(data);
-            }
-
+        $(function() {
+            // Get the JSON from the API
+            $.getJSON('api/MySpecials', function (getSpecials) {
+                // For each special, append it to the Results list
+                $(getSpecials).each(function(i, specialItem) {
+                    $('#results').append('<li>' + specialItem.Dishname + ' - $' + specialItem.Price + '</li>');
+                });
             });
-
-
-            //.done(function (msg) {
-            //$.each(msg, function () {
-            //    console.log(msg);
-            //    $("#results").append("<li>"+msg.Dishname+"</li>");
-            //});
-
-
-            //});
-
-        
         });
 
     </script>
 }
-
-
-

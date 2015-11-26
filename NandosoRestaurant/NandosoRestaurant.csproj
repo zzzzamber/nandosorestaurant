@@ -225,12 +225,15 @@
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\FeedbackController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MyFeedbackController.cs" />
     <Compile Include="Controllers\MySpecialsController.cs" />
     <Compile Include="Controllers\SpecialController.cs" />
+    <Compile Include="Controllers\StaffController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\MyFeedback.cs" />
     <Compile Include="Models\MySpecial.cs" />
     <Compile Include="NandosoDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -302,6 +305,7 @@
     <Content Include="Views\Feedback\Index.cshtml" />
     <Content Include="Views\Feedback\Reply.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Staff\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
