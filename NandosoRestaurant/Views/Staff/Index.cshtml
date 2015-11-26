@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Staff";
+}
+<h2>Staff</h2>
+<ul id="results"></ul>
+
+@section scripts{
+
+    <script type="text/javascript">
+        $(function() {
+            // Get the JSON from the API
+            $.getJSON('api/MyFeedback', function (getFeedbacks) {
+                // For each feedback, append it to the Results list
+                $(getFeedbacks).each(function (i, feedbackItem) {
+                    $('#results').append('<li>' + 'Name: ' + feedbackItem.FirstName + ' ' + feedbackItem.LastName +
+                        ' Email: ' + feedbackItem.Email + ' Feedback: ' + feedbackItem.Feedback + '</li>');
+                });
+            });
+        });
+
+    </script>
+}
