@@ -1,9 +1,4 @@
-﻿/*body {
-    font: "Trebuchet MS", Verdana, sans-serif;
-    background-color: #F4FF97;
-    color: #060002;
-}*/
-
+﻿/*Background Used For All Pages*/
 body {
     background-image: url(http://www.nandos.com/sites/default/files//homepage-carousel-worldwide.png);
     background-repeat: repeat;
@@ -40,18 +35,18 @@ h1
 {
 font: Comic Sans MS, Impact, Charcoal, sans-serif;
 /*background-image: url(http://www.nandos.com/sites/default/files//homepage-carousel-worldwide.png);*/
-color:white; 
+color:black; 
 font-size:500%
 }
 
 h2 {
 font-size: 220%;
-color:white 
+color:black; 
 }
 
 p {
  font-size: 150%;
- color:white
+ color:black
 }
 
 li {

@@ -1,14 +1,17 @@
-﻿/*body {
-    font: "Trebuchet MS", Verdana, sans-serif;
-    background-color: #F4FF97;
-    color: #060002;
-}*/
-
+﻿/*Background Used For All Pages*/
 body {
     background-image: url(http://www.nandos.com/sites/default/files//homepage-carousel-worldwide.png);
     background-repeat: repeat;
     background-position: center; 
     }
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -38,12 +41,16 @@ font-size:500%
 
 h2 {
 font-size: 220%;
-color:black 
+color:black; 
 }
 
 p {
  font-size: 150%;
  color:black
+}
+
+li {
+    font-size: 150%;
 }
 
 .page-header {
